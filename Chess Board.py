@@ -16,7 +16,7 @@ def chess(x, y):
 
 z2 = chess(X, Y)
 plt.imshow(z2, alpha=0.6, interpolation="bilinear", extent=extent, cmap="viridis", origin="lower")
-
+#added
 plt.title("Chess Board with Python")
 plt.colorbar()
 plt.show()
